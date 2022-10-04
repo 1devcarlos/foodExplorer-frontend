@@ -40,7 +40,7 @@ export function SignIn() {
           type="email"
           label="email"
           title="Email"
-          placeholder="Exemplo: exemplo@exemplo.com"
+          placeholder="exemplo@exemplo.com"
           onChange={(e) => setEmail(e.target.value)}
           required
         />
