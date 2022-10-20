@@ -7,7 +7,6 @@ import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
-import { Ingredient } from "../../components/Ingredient";
 import {
   Container,
   Content,
@@ -17,6 +16,7 @@ import {
   InputWrapper,
 } from "./styles";
 import { FiChevronLeft, FiUpload } from "react-icons/fi";
+import { IngredientItem } from "../../components/IngredientItem";
 
 export function New() {
   const [imageFile, setImageFile] = useState(null);
@@ -136,7 +136,7 @@ export function New() {
                 label="category"
                 title="Categoria"
                 type="text"
-                placeholder="pratos principais"
+                placeholder="Pratos principais"
                 onChange={(e) => setCategory(e.target.value)}
               />
             </InputWrapper>
@@ -146,13 +146,13 @@ export function New() {
                 <span>Ingredientes</span>
                 <div>
                   {ingredients.map((ingredient, index) => (
-                    <Ingredient
+                    <IngredientItem
                       key={String(index)}
                       value={ingredient}
                       onClick={() => handleRemoveIngredient(ingredient)}
                     />
                   ))}
-                  <Ingredient
+                  <IngredientItem
                     isNew
                     value={newIngredient}
                     placeholder="Adicionar"
@@ -178,7 +178,7 @@ export function New() {
               onChange={(e) => setDescription(e.target.value)}
             />
             <button type="button" onClick={handleNewDish} disabled={loading}>
-              {loading ? "Adicionando pedido" : "Adicionar pedido"}
+              {loading ? "Adicionando prato" : "Adicionar prato"}
             </button>
           </Form>
         </Content>
