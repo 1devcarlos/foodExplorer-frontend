@@ -1,7 +1,7 @@
 import { Container, Content } from "./styles";
 import { useCart } from "../../hooks/cart";
 
-export function Order({ data }) {
+export function OrderItem({ data }) {
   const { handleRemoveDishFromCart, paymentAccept } = useCart();
 
   return (

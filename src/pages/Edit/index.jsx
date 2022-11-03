@@ -7,7 +7,6 @@ import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
-import { Ingredient } from "../../components/Ingredient";
 import {
   Container,
   Content,
@@ -17,6 +16,7 @@ import {
   InputWrapper,
 } from "./styles";
 import { FiChevronLeft, FiUpload } from "react-icons/fi";
+import { IngredientItem } from "../../components/IngredientItem";
 
 export function Edit() {
   const [imageFile, setImageFile] = useState(null);
@@ -165,13 +165,13 @@ export function Edit() {
                 <span>Ingredientes</span>
                 <div>
                   {ingredients.map((ingredient, index) => (
-                    <Ingredient
+                    <IngredientItem
                       key={String(index)}
                       value={ingredient}
                       onClick={() => handleRemoveIngredient(ingredient)}
                     />
                   ))}
-                  <Ingredient
+                  <IngredientItem
                     isNew
                     value={newIngredient}
                     placeholder="Adicionar"

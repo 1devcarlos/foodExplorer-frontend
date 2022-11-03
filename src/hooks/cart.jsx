@@ -5,7 +5,7 @@ export const CartContext = createContext({});
 
 function CartProvider({ children }) {
   const [cart, setCart] = useState(
-    JSON.parse(localStorage.getItem(`@foodexplorer:cart`)) || []
+    JSON.parse(localStorage.getItem(`@foodExplorer:cart`)) || []
   );
   const [paymentAccept, setPaymentAccept] = useState(
     JSON.parse(localStorage.getItem(`paymentAccept`)) || false
@@ -45,7 +45,7 @@ function CartProvider({ children }) {
   }, 0);
 
   async function handleResetCart(id, navigate) {
-    localStorage.removeItem(`@foodexplorer:cart`);
+    localStorage.removeItem(`@foodExplorer:cart`);
     localStorage.removeItem(`paymentAccept`);
 
     setCart([]);
@@ -56,7 +56,7 @@ function CartProvider({ children }) {
   }
 
   useEffect(() => {
-    localStorage.setItem(`@foodexplorer:cart`, JSON.stringify(cart));
+    localStorage.setItem(`@foodExplorer:cart`, JSON.stringify(cart));
   }, [cart]);
 
   useEffect(() => {

@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
-import { Item } from "../../components/Item";
+import { OrderItem } from "../../components/OrderItem";
 import { Button } from "../../components/Button";
 import { Input } from "../../components/Input";
 
@@ -89,7 +89,9 @@ export function Cart() {
           <h3>Meu pedido</h3>
           <div className="section-order">
             {cart &&
-              cart.map((item) => <Item key={String(item.id)} data={item} />)}
+              cart.map((item) => (
+                <OrderItem key={String(item.id)} data={item} />
+              ))}
           </div>
           <div className="result">
             <p>
