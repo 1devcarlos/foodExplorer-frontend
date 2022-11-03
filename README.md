@@ -20,7 +20,7 @@
 
 <p align="center">
  <a href="#-about">About</a> •
- <a href="#-Features">Features</a> •
+ <a href="#-features">Features</a> •
  <a href="#-tech-stack">Tech Stack</a> •
 
 </p>
