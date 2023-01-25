@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://cg-food-explorer.herokuapp.com",
+  baseURL: "https://foodexplorer-api-7f32.onrender.com",
 });
