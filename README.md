@@ -11,7 +11,7 @@
 	
   <img src="https://img.shields.io/github/languages/count/1devcarlos/foodExplorer-frontend" alt="languages" />
 	
-  <img alt="GitHub" src="https://img.shields.io/github/license/1devcarlos/foodExplorer-frontend">
+  
 
 
 </p>
