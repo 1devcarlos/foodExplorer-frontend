@@ -16,9 +16,6 @@
 
 </p>
 
-<h4 align="center"> 
-	 Status: Concluído
-</h4>
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
