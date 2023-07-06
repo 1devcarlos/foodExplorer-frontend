@@ -1,4 +1,3 @@
-<img src=".github/Capa.png" />
 
 <h1 align="center">
     <a href="#"> Food Explorer - Frontend</a>
