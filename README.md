@@ -4,12 +4,15 @@
 </h1>
 
 <p align="center">
+
+  <img alt="Static Badge" src="https://img.shields.io/badge/status-concluido-green">
 	
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="welcome!" />
 	
   <img src="https://img.shields.io/github/languages/count/1devcarlos/foodExplorer-frontend" alt="languages" />
 	
-  <img alt="Github License" src="https://img.shields.io/github/license/1devcarlos/foodExplorer-frontend" />
+  <img alt="GitHub" src="https://img.shields.io/github/license/1devcarlos/foodExplorer-frontend">
+
 
 </p>
 
@@ -19,8 +22,6 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-backend">Backend</a> •
  <a href="#-tecnologias">Tecnologias</a> •
 
 </p>
