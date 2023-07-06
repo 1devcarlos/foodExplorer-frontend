@@ -8,144 +8,147 @@
 	
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="welcome!" />
 	
-  <img src="https://img.shields.io/github/languages/count/Dev-Shinsei/foodExplorer-frontend" alt="languages" />
+  <img src="https://img.shields.io/github/languages/count/1devcarlos/foodExplorer-frontend" alt="languages" />
 	
-  <img alt="Github License" src="https://img.shields.io/github/license/Dev-Shinsei/foodExplorer-frontend" />
+  <img alt="Github License" src="https://img.shields.io/github/license/1devcarlos/foodExplorer-frontend" />
 
 </p>
 
 <h4 align="center"> 
-	 Status: Finished
+	 Status: Concluído
 </h4>
 
 <p align="center">
- <a href="#-about">About</a> •
- <a href="#-features">Features</a> •
- <a href="#-tech-stack">Tech Stack</a> •
+ <a href="#-sobre">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-backend">Backend</a> •
+ <a href="#-tecnologias">Tecnologias</a> •
 
 </p>
 
-## 💻 About
+## 💻 Sobre
 
-The application that we will develop is a digital menu for a fictional restaurant, known as Food Explorer.
-In this challenge, the following topics were addressed:
+O Food Explorer é um aplicativo web que funciona como um menu digital para um restaurante fictício. Este projeto foi desenvolvido como desafio final para a certificação no Curso Explorer da RocketSeat. A aplicação foi construída utilizando as seguintes tecnologias:
 
-- React;
-- Routes;
-- components;
-- Props;
-- hooks;
-- context;
-
----
-
-## ⚙️ Features
-
-- [x] A structured project, with a good organization of folders, division of components in the front-end, etc.
-- [x] A README.md file with specifications on how to run the project in a dev environment.
-- [x] Users must authenticate themselves to enter the application through the login screen, you can apply what you learned in JWT authentication classes. Authentication must be validated with a password.
-- [x] The admin will upload images to register the dishes.
-- [x] Finally, deploy your application.
-- [x] Give your functions and variables meaningful names: work with Clean Code concepts a bit.
-- [x] The admin, restaurant and users data will be stored in a database.
-- [x] Possibility to search by dish name, ingredients or favorite dish
-- [x] It is essential that your interface consumes its own API.
-- [x] Interesting to make the application responsive: use the concept of Mobile First that was learned in class.
-- [x] It's up to you where to apply animations, transitions, and transformations.
-- [x] It meets the model proposed in Figma and contains elements indicative of action and state.
-
-Optionals
-
-- [x] The user can add items to the cart by clicking the add button. The amount is controlled by the “-” and “+” buttons;
-- [x] By clicking on the my order button, the user will be redirected to a screen where he will see his order, the sum and the payment methods;
-- [x] The user will be able to delete a dish from the cart and the total amount of the order should be updated automatically;
-- [x] The user can mark a dish as a favorite, just click on the heart that appears next to each one;
-- [x] The admin will view and control the status of each order, through a select field. Orders will appear in a table when you click Orders;
+- React
+- Routes
+- Components
+- Props
+- Hooks
+- Context
 
 ---
 
-### Deploy
+## ⚙️ Funcionalidades
+
+- [x] Projeto estruturado, com boa organização de pastas e divisão de componentes no frontend.
+- [x] Arquivo README.md com instruções sobre como executar o projeto em ambiente de desenvolvimento.
+- [x] Autenticação de usuários por meio de tela de login, utilizando autenticação JWT.
+- [x] Funcionalidade de upload de imagens para registro de pratos pelo administrador.
+- [x] Deploy da aplicação.
+- [x] Nomes significativos para funções e variáveis, seguindo os princípios de Clean Code.
+- [x] Armazenamento dos dados de admin, restaurante e usuários em um banco de dados.
+- [x] Funcionalidade de busca por nome do prato, ingredientes ou prato favorito.
+- [x] A interface consome sua própria API.
+- [x] Design responsivo utilizando o conceito de Mobile First.
+- [x] Aplicação de animações, transições e transformações quando apropriado.
+- [x] O usuário pode adicionar itens ao carrinho clicando no botão "Adicionar". A quantidade pode ser controlada pelos botões "-" e "+".
+- [x] Ao clicar no botão "Meu Pedido", o usuário é redirecionado para uma tela onde pode visualizar seu pedido, a soma total e os métodos de pagamento disponíveis.
+- [x] O usuário pode excluir um prato do carrinho e o valor total do pedido é atualizado automaticamente.
+- [x] O usuário pode marcar um prato como favorito clicando no ícone de coração ao lado de cada prato.
+- [x] O administrador pode visualizar e controlar o status de cada pedido por meio de um campo de seleção. Os pedidos são exibidos em uma tabela ao clicar na opção "Pedidos".
+
+---
+
+### 🚀 Deploy
 
 [Food Explorer](https://cg-food-explorer.netlify.app/)
 
 ---
 
-## 🚀 How it works
+## ⚙️ Backend
 
-This project is divided into two parts:
+💡 Para ver o repositório do Backend <a href="https://github.com/1devcarlos/foodExplorer-backend" target="_blank">clique aqui!</a>
 
-1. Backend (food-explorer-backend folder)
-2. Frontend (food-explorer-frontend folder)
+## 🚀 Como Funciona
 
-💡 The Frontend needs the Backend to be running to work.
+Este projeto está dividido em duas partes:
 
-### Pre-requisites
+1. Backend (pasta food-ex
 
-Before you begin, you will need to have the following tools installed on your machine: [Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/). In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
+lorer-backend)
+2. Frontend (pasta food-explorer-frontend)
 
-#### 🎲 Running the Server (Backend)
+💡 O Frontend requer que o Backend esteja em execução para funcionar corretamente.
+
+### Pré-requisitos
+
+Antes de começar, verifique se você possui as seguintes ferramentas instaladas em sua máquina: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). Além disso, é recomendável ter um editor de código como o [VSCode](https://code.visualstudio.com/) para trabalhar com o código.
+
+#### 🎲 Executando o Servidor (Backend)
 
 ```bash
-# Clone this repository
-$ git clone git@github.com:Dev-Shinsei/foodExplorer-backend.git
+# Clone este repositório
+$ git clone git@github.com:1devcarlos/foodExplorer-backend.git
 
-# Access the project folder in your terminal
+# Acesse a pasta do projeto no terminal
 $ cd food-explorer-backend
 
-# Install the dependencies
+# Instale as dependências
 $ npm install
 
-# run the migration and seed
+# Execute a migração e o seed
 $ npm migrate
 $ npm seed
 
-# Run the application in development mode
+# Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
-# Admin login
-$ email: admin@email.com
-$ password: 33283982
+# Login do administrador
+$ email: [email do admin]
+$ password: [senha do admin]
 
-# The Server will start at port: 3333 - go to http://localhost:3333
+# O servidor será iniciado na porta: 3333 - acesse http://localhost:3333
 ```
 
 ---
 
-#### 🧭 Running the web application (Frontend)
+#### 🧭 Executando a aplicação web (Frontend)
 
 ```bash
-# Clone this repository
-$ git clone git@github.com:Dev-Shinsei/foodExplorer-frontend.git
+# Clone este repositório
+$ git clone git@github.com:1devcarlos/foodExplorer-frontend.git
 
-# Access the project folder in your terminal
+# Acesse a pasta do projeto no terminal
 $ cd food-explorer-frontend
 
-# Install the dependencies
+# Instale as dependências
 $ npm install
 
-# Run the application in development mode
+# Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
-# The application will open on the port: 3000 - go to http://localhost:3000
+# A aplicação será aberta na porta: 3000 - acesse http://localhost:3000
 ```
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tecnologias
 
-The following tools were used in the construction of the project:
+As seguintes ferramentas foram utilizadas na construção deste projeto:
 
-- [React](https://reactjs.org)
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [Styled components](https://styled-components.com/)
+- [Styled Components](https://styled-components.com/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ---
 
-## 💻 **Project**
+## 💻 Projeto
 
-The application that we will develop is a digital menu for a fictional restaurant, known as Food Explorer.
+O Food Explorer é um aplicativo web que funciona como um menu digital para um restaurante fictício conhecido como Food Explorer.
 
 ---
 
-Made with ❤️ by Dev-Shinsei 👋🏽 [Get in Touch!](https://www.linkedin.com/in/devshinsei/)
+Feito com ❤️ por Carlos Gomes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/1devcarlos/)
